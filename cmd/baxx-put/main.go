@@ -37,6 +37,10 @@ func main() {
 		util.Exit(err)
 	}
 	req, err := http.NewRequest("PUT", flag.Arg(0), reader)
+	if err != nil {
+		util.Exit(err)
+	}
+
 	resp, err := client.Do(req)
 	if err != nil {
 		util.Exit(err)

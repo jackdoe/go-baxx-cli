@@ -34,6 +34,10 @@ func main() {
 	}
 
 	req, err := http.NewRequest("GET", flag.Arg(0), nil)
+	if err != nil {
+		util.Exit(err)
+	}
+
 	resp, err := client.Do(req)
 	if err != nil {
 		util.Exit(err)
