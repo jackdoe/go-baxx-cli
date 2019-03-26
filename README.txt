@@ -32,5 +32,5 @@ Usage baxx-get:
   -k string
         file containing the encryption key, key is sha256(content of the file)
 Example:
-  baxx-get -k pass-file https://baxx.dev/io/$BAXX_TOKEN/file
+  baxx-get -k pass-file https://baxx.dev/io/$BAXX_TOKEN/file > file.downloaded
 
