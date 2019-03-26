@@ -6,7 +6,7 @@ encrypt os.Stdin and upload it to baxx.dev
 
 ## Install
 
-go install https://github.com/jackdoe/go-baxx-cli/cmd/baxx-put
+go install github.com/jackdoe/go-baxx-cli/cmd/baxx-put
 
 ## Usage
 Usage baxx-put:
@@ -24,7 +24,7 @@ to os.Stdout
 
 ## Install
 
-go install https://github.com/jackdoe/go-baxx-cli/cmd/baxx-get
+go install github.com/jackdoe/go-baxx-cli/cmd/baxx-get
 
 ## Usage
 
